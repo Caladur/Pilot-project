@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: #2100fa; bunu revize et çünkü renk uyumu sağlanmadı. */ 
+    font-size: 10px;
+}
+body{
+    background-color: #143d59;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-blend-mode: saturation;
+    height: max-content;
+}
+a{
+    text-decoration: none;
+}
+a:focus, a:hover{
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+}
+.topnav{
+    overflow: hidden;
+    background-color:#f4b41a
+}
+
+.topnav p{
+    font-size: 4.5rem;          /* Float değerlerini flexbox ile yapmayı dene. */
+    float: left;
+    padding-top: 1rem;
+    padding-left: 4rem;
+    text-align: center;
+    
+}
+.topnav a{
+    color: #143d59;
+    float: right;
+    text-align: center;
+    padding:  2.5rem;
+    font-size: 1.7rem;
+
+}
+#sitename{
+    color: #143d59;
+    padding-left: 1.3rem;
+    float: left;
+}
+#site-logo{
+    float: left;
+    font-size: 4rem;
+    padding-left: 1.8rem;
+    padding-top: 1.8rem;
+    color: #143d59;
+}
+.topnav a:hover{
+background-color: #143d59;
+color: #f4b41a;
+}
+
+/*SEARCHBAR*/
+
+#search{
+    display: flex;
+    justify-content: center;
+    margin-top: 15rem;
+    flex-direction: column;
+}
+#motto{
+    font-size: 1.5rem;
+    align-self: center;
+    color: #f4b41a;
+}
+#searchbar{
+    margin-top: 1rem;
+    align-self: center;
+    width: 25%;
+    margin-bottom: 3rem;
+}
+.hrbar{
+    margin: auto auto;
+    width: 60%;
+    color: #f4b41a;
+}
+
+/*CONTENT*/
+
+#container{
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.subcontainer{
+    margin-top: 2.5rem;
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border: solid #f4b41a;
+    background-color: #143d59;
+    width: 9rem;
+    height: 10rem;
+    position: relative;
+    text-align: center;
+}
+.subcontainer a:hover{
+    cursor: pointer;
+}
+.icon{
+    margin:auto auto;
+    font-size:5rem;
+    color: #f4b41a;
+}
+.song-name{
+   width: max-content;
+   height: 1.5rem;
+   color: #f4b41a;
+   position:absolute;
+   text-align: center;
+   top: 10.2rem;
+   right: 0rem;
+   left: 0.1px;
+}
+#lyrics{
+    color: #f4b41a;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/*ENDING*/
+
+.tenets{
+    margin-top: 3rem;
+    width: auto;
+    background-color: #f4b41a;
+    height: 20rem;
+}
+#tenethr{
+    color: #143d59;
+    background-color: #143d59;
+}
+.column{
+    width: 33%;
+    height: 16.6rem;
+    padding-top: 4rem;
+    color: #143d59;
+    float: left;
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+    /* column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: #143d59; */
+}
+#statement{
+    width: cover;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 1rem;
+    color: #143d59;
+    font-weight: bold;
+}
+#ending{
+    height: 1.5rem;
+    background-color: #143d59;
+    color: #f4b41a;
+    width: 100%;
+    text-align: center;
+}
+/* 697 x 570
+<a href="https://www.freepik.com/photos/background">Background photo created by freepik - www.freepik.com</a> */

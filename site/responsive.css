@@ -1,0 +1,50 @@
+@media screen and (max-width:414px){
+.topnav a{
+    font-size: 1rem; 
+}
+#site-logo{
+    font-size: 3rem;
+}
+#sitename{
+    font-size: 3rem;
+    float: left;
+    padding-top: 1.5rem;
+}
+.column{
+    font-size: 1.4rem;
+}}
+@media screen and (max-width:375px){
+    .topnav a{
+        font-size: 1rem;
+        
+    }
+    #site-logo{
+        font-size: 2rem;
+        padding-top: 2.2rem;
+    }
+    #sitename{
+        font-size: 2rem;
+        float: left;
+        padding-top: 2rem;
+    }
+    .column{
+        font-size: 1.3rem;
+    }
+}
+@media screen and (max-width:360px){
+    .topnav a{
+        font-size: 1rem;
+        
+    }
+    #site-logo{
+        font-size: 2rem;
+        padding-top: 2.2rem;
+    }
+    #sitename{
+        font-size: 1.8rem;
+        float: left;
+        padding-top: 2rem;
+    }
+    .column{
+        font-size: 1.3rem;
+    }}
